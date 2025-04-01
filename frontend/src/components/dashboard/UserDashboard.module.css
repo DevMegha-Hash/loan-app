@@ -1,0 +1,32 @@
+.userdashboard {
+  width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+.usercontainer{
+    position: relative;
+}
+  
+  .loanCards {
+    position: absolute;
+
+    left:75%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .creditscore{
+    position: absolute;
+    left: 10%;
+  }
+
+
+  .payment{
+    position: absolute;
+    /* top: 50%; */
+    left: 10%;
+    transform: translate(0%, 150%);
+    display: flex;
+    gap: 50%;
+  }

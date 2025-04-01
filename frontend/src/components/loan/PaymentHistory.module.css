@@ -1,0 +1,28 @@
+.historyContainer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paymentList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .paymentList li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .paymentList li:last-child {
+    border-bottom: none;
+  }
+  
